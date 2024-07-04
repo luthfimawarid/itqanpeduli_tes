@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/dana', function () {
     return view('admin.isi.dana');
 });
+
+Route::get('/home', function () {
+    return view('user.home.index');
+});
