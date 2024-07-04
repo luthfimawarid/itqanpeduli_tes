@@ -39,8 +39,16 @@
         </div>
         <div class="program">
             <p class="text-2xl font-semibold">Program Instan</p>
-            <div class="sedekah">
-                
+            <div class="sedekah bg-white w-full my-3 flex p-5 rounded-lg" style="box-shadow: 0 2px 3px 0 gray;">
+                <img src="/images/dts.jpg" alt="" class="w-20 h-20 my-auto" >
+                <div class="teks w-full">
+                    <p class="text-2xl font-semibold ms-3 text-gray-800">Sedekah</p>
+                    <p class="text-sm font-normal ms-3 text-green-600">Tidak Terikat</p>
+                    <div class="duit flex justify-between mt-3">
+                        <p class="text-sm font-normal ms-3 text-green-600">13.250.500</p>
+                        <p class="text-sm font-normal ms-3 text-gray-600">49 Donatur</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
