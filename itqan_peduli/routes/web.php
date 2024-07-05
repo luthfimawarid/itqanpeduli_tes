@@ -13,3 +13,11 @@ Route::get('/dana', function () {
 Route::get('/home', function () {
     return view('user.home.index');
 });
+
+Route::get('/akun', function () {
+    return view('user.akun.index');
+});
+
+Route::get('/dutaamal', function () {
+    return view('user.akun.dutaAmal');
+});
