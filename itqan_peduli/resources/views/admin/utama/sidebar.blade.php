@@ -45,8 +45,9 @@
                     </svg>
                 </a>
                 <div class="accordion-content hidden ml-8">
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 1</a>
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 2</a>
+                    <a href="/kategori" class="block py-1 px-2 hover:bg-gray-100">Kategori</a>
+                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Urutkan Kategori</a>
+                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Urutkan Program</a>
                 </div>
             </div>
             <div class="accordion-item">
@@ -83,8 +84,10 @@
                     </svg>
                 </a>
                 <div class="accordion-content hidden ml-8">
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 1</a>
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 2</a>
+                    <a href="/penyaluran" class="block py-1 px-2 hover:bg-green-200 rounded ms-3 my-3 hover:text-black">Input Penyaluran</a>
+                    <a href="/lembaga" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Input Hak Lembaga</a>
+                    <a href="/mediaberbagi" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Input MediaBerbagi</a>
+                    <a href="/berita" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Laporan Berita</a>
                 </div>
             </div>
             <div class="accordion-item">
@@ -134,5 +137,22 @@
             </div>
         </ul>
    </div>
-   <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </aside>
+<script>
+     document.querySelectorAll('[data-drawer-toggle]').forEach(button => {
+            button.addEventListener('click', () => {
+                const sidebar = document.getElementById(button.getAttribute('data-drawer-target'));
+                sidebar.classList.toggle('-translate-x-full');
+            });
+        });
+        
+        document.querySelectorAll('.accordion-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                content.classList.toggle('hidden');
+                const arrow = header.querySelector('.accordion-arrow');
+                arrow.classList.toggle('transform');
+                arrow.classList.toggle('rotate-180');
+            });
+        });
+    </script>
