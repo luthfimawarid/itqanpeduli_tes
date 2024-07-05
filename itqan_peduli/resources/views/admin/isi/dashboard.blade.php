@@ -8,6 +8,10 @@
             <div class="kanan">
                     
                 <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="flex text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                    <div class="relative me-4 my-auto">
+                        <img class="w-10 h-10 rounded-full" src="/images/dts.jpg" alt="profile image">
+                        <span class="top-0 start-7 absolute w-3.5 h-3.5 bg-green-500 border-2 border-white dark:border-gray-800 rounded-full"></span>
+                    </div>
                     <div class="teks text-left">
                         <p class="text-xl text-gray-600 font-semibold">Admin</p> 
                         <p class="text-gray-400 text-xs font-normal">Admin@gmail.com</p> 
