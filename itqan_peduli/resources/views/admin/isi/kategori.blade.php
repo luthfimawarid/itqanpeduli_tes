@@ -3,7 +3,7 @@
     <div class="p-4 sm:ml-80">
         <div class="header flex justify-between mt-3">
             <div class="kiri">
-                <p class="text-2xl font-semibold">Dana Terkumpul</p>
+                <p class="text-2xl font-semibold">Kategori</p>
             </div>
             <div class="kanan">
                 <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="flex text-white font-normal rounded-lg text-sm px-5 py-2.5 text-center items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
@@ -37,12 +37,12 @@
         <div class="subheader text-white my-8">
             <div class="welcome flex justify-between bg-green-700 me-30 w-full py-8 px-4 rounded-lg">
                 <div class="kiri my-auto">
-                    <p class="text-2xl font-semibold">Update Laporan</p>
-                    <p class="text-sm text-gray-300 mt-2 font-normal">buat update laporan untuk campaign</p>
+                    <p class="text-2xl font-semibold">Kelola Kategori Galang Dana</p>
+                    <p class="text-sm text-gray-300 mt-2 font-normal">tambahkan lebih banyak kategori</p>
                 </div>
                 <div class="kanan my-auto">
                     <a type="button" href="#" class="text-green-700 bg-white p-10 border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-normal rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                        Buat Update
+                        Buat Kategori
                     </a>
                 </div>
             </div>
