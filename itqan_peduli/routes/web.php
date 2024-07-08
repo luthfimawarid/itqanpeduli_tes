@@ -132,6 +132,19 @@ Route::get('/inputkelolaNotifikasi', function () {
 Route::get('/program', function () {
     return view('user.program.program');
 });
+Route::get('/googleAnalytics', function() {
+    return view('admin.isi.analytics.googleAnalytics');
+});
+Route::get('/facebookPixel', function() {
+    return view('admin.isi.analytics.facebookPixel');
+});
+Route::get('/paymentGateaway', function() {
+    return view('admin.isi.paymentGateaway');
+});
+Route::get('/pengaturanemas', function() {
+    return view('admin.isi.pengaturan');
+});
+
 
 
 // User
@@ -146,3 +159,8 @@ Route::get('/akun', function () {
 Route::get('/dutaamal', function () {
     return view('user.akun.dutaAmal');
 });
+
+Route::get('/bg', function () {
+    return view('user.akun.background');
+});
+
