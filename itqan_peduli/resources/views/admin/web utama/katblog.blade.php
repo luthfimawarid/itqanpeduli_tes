@@ -3,7 +3,7 @@
     <div class="p-4 sm:ml-80">
         <div class="header flex justify-between mt-3">
             <div class="kiri">
-                <p class="text-2xl font-semibold">List Fundraiser</p>
+                <p class="text-2xl font-semibold">Kategori Blog</p>
             </div>
             <div class="kanan">
                 <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="flex text-white font-normal rounded-lg text-sm px-5 py-2.5 text-center items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
@@ -35,40 +35,19 @@
             </div>
         </div>
         <div class="subheader text-white my-8">
-            <div class="welcome bg-green-700 me-30 w-full py-8 px-4 rounded-lg">
+            <div class="welcome flex justify-between bg-green-700 me-30 w-full py-8 px-4 rounded-lg">
                 <div class="kiri my-auto">
-                    <p class="text-2xl font-semibold">List Fundraiser</p>
-                    <p class="text-sm text-gray-300 mt-2 font-normal">semua fundraiser yang terdaftar</p>
+                    <p class="text-2xl font-semibold">Kategori Blog</p>
+                    <p class="text-sm text-gray-300 mt-2 font-normal">tambah lebih banyak kategori</p>
+                </div>
+                <div class="kanan my-auto">
+                    <a type="button" href="#" class="text-green-700 bg-white p-10 border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-normal rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                        Buat Kategori
+                    </a>
                 </div>
             </div>
         </div>
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg my-6 bg-white p-5">
-        <div class="atas flex justify-between mb-12">
-                <div class="kiri flex">
-                    <p>Show</p>
-                    <form class="max-w-sm ms-2">
-                    <select id="countries" class="bg-gray-50 border border-green-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-16 p-1 dark:bg-gray-700 dark:border-green-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                        <option selected>10</option>
-                        <option value="25">25</option>
-                        <option value="50">50</option>
-                        <option value="100">100</option>
-                    </select>
-                    </form>
-                </div>
-                <div class="kanan">
-                    <form class="flex items-center max-w-sm mx-auto">   
-                        <button type="submit" class="p-1.5 me-2 text-sm font-medium text-white bg-green-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
-                            </svg>
-                            <span class="sr-only">Search</span>
-                        </button>
-                        <div class="relative w-full">
-                            <input type="text" id="simple-search" class="h-8 bg-gray-50 border border-green-300 text-gray-900 text-sm rounded-lg focus:ring-green-800 focus:border-green-800 block w-full ps-2 p-1.5  dark:bg-gray-700 dark:border-green-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-800 dark:focus:border-green-800" required />
-                        </div>
-                    </form>
-                </div>
-            </div>
                 <table class="w-full text-sm text-left rtl:text-right text-gray-700 dark:text-gray-400">
                     <thead class="text-md text-gray-700">
                         <tr class="font-extrabold">
@@ -76,19 +55,10 @@
                                 #
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Nama
+                                Kategori
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                No Telepon
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Email
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Provinsi
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Tipe
+                                Action
                             </th>
                         </tr>
                     </thead>
@@ -99,12 +69,6 @@
                             </th>
                             <td class="px-6 py-4">
                                 Silver
-                            </td>
-                            <td class="px-6 py-4">
-                                Laptop
-                            </td>
-                            <td class="px-6 py-4">
-                                17-mei-2022
                             </td>
                             <td class="px-6 py-4 flex">
                                 <a href="#" class="font-normal text-blue-600 dark:text-blue-500 hover:underline">
@@ -126,12 +90,6 @@
                             <td class="px-6 py-4">
                                 White
                             </td>
-                            <td class="px-6 py-4">
-                                Laptop PC
-                            </td>
-                            <td class="px-6 py-4">
-                                $1999
-                            </td>
                             <td class="px-6 py-4 flex">
                                 <a href="#" class="font-normal text-blue-600 dark:text-blue-500 hover:underline">
                                     <svg class="w-6 h-6 text-blue-600 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -151,12 +109,6 @@
                             </th>
                             <td class="px-6 py-4">
                                 Black
-                            </td>
-                            <td class="px-6 py-4">
-                                Accessories
-                            </td>
-                            <td class="px-6 py-4">
-                                $99
                             </td>
                             <td class="px-6 py-4 flex">
                                 <a href="#" class="font-normal text-blue-600 dark:text-blue-500 hover:underline">
@@ -178,12 +130,6 @@
                             <td class="px-6 py-4">
                                 Gray
                             </td>
-                            <td class="px-6 py-4">
-                                Phone
-                            </td>
-                            <td class="px-6 py-4">
-                                $799
-                            </td>
                             <td class="px-6 py-4 flex">
                                 <a href="#" class="font-normal text-blue-600 dark:text-blue-500 hover:underline">
                                     <svg class="w-6 h-6 text-blue-600 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -203,12 +149,6 @@
                             </th>
                             <td class="px-6 py-4">
                                 Red
-                            </td>
-                            <td class="px-6 py-4">
-                                Wearables
-                            </td>
-                            <td class="px-6 py-4">
-                                $999
                             </td>
                             <td class="px-6 py-4 flex">
                                 <a href="#" class="font-normal text-blue-600 dark:text-blue-500 hover:underline">

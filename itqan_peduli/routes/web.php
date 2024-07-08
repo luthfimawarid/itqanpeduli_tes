@@ -38,8 +38,40 @@ Route::get('/leaderboard', function () {
     return view('admin.fundraiser.leaderboard');
 });
 
-Route::get('/transaksifundraiser', function () {
+Route::get('/tranfun', function () {
     return view('admin.fundraiser.transaksi');
+});
+
+Route::get('/slider', function () {
+    return view('admin.web utama.slider');
+});
+
+Route::get('/partner', function () {
+    return view('admin.web utama.partner');
+});
+
+Route::get('/katblog', function () {
+    return view('admin.web utama.katblog');
+});
+
+Route::get('/blog', function () {
+    return view('admin.web utama.blog');
+});
+
+Route::get('/kegiatan', function () {
+    return view('admin.web utama.kegiatan');
+});
+
+Route::get('/konten', function () {
+    return view('admin.web utama.konten');
+});
+
+Route::get('/notifmail', function () {
+    return view('admin.email.notif');
+});
+
+Route::get('/mail', function () {
+    return view('admin.email.mail');
 });
 
 Route::get('/inputpenggalanganDana', function () {
