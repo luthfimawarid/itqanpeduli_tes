@@ -30,6 +30,24 @@ Route::get('/kategori', function () {
     return view('admin.isi.kategori');
 });
 
+Route::get('/inputpenggalanganDana', function () {
+    return view('admin.isi.publikasiProgram.pengalanganDana');
+});
+Route::get('/inputprogramZakat', function () {
+    return view('admin.isi.publikasiProgram.programZakat');
+});
+Route::get('/inputprogramWakaf', function () {
+    return view('admin.isi.publikasiProgram.programWakaf');
+});
+Route::get('/inputprogramQurban', function () {
+    return view('admin.isi.publikasiProgram.programQurban');
+});
+Route::get('/inputkelolaKategori', function () {
+    return view('admin.isi.pengaturanProgram.kelolaKategori');
+});
+Route::get('/inputdonasiManual', function () {
+    return view('admin.isi.transaksi.donasiManual');
+});
 
 
 // User
