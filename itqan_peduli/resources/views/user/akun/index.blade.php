@@ -16,7 +16,7 @@
             @include('user.home.navbar')
         </header> --}}
         <main class="z-0 ">
-            @include('user.akun.main')
+            @include('user.akun.background')
         </main>        
         <footer>
             @include('user.home.navbottom')

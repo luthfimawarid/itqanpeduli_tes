@@ -25,7 +25,7 @@
         </svg>
 
 
-        <button type="button"
+        <a href="{{ url('/bg') }}" type="button"
             class="text-white my-6 bg-gray-300 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-gray-200 dark:hover:bg-gray-300 dark:focus:ring-gray-400">
             <svg class="w-6 h-6  text-green-700  dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                 width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -33,7 +33,7 @@
                     d="M5 12h14M5 12l4-4m-4 4 4 4" />
             </svg>
             {{-- <span class="sr-only">Icon description</span> --}}
-        </button>
+        </a>
 
         <div class="isi">
             <div class="text-2xl font-bold text-black dark:text-white">Daftar Duta Amal</div>
