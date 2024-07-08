@@ -3,7 +3,7 @@
     <div class="p-4 sm:ml-80">
         <div class="header flex justify-between mt-3">
             <div class="kiri">
-                <p class="text-2xl font-semibold">Donasi Manual</p>
+                <p class="text-2xl font-semibold">Kelola User</p>
             </div>
             <div class="kanan">
                 <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
@@ -53,68 +53,38 @@
             </div>
             <form class="px-8 mt-6 bg-white rounded-lg">
                 <div class=" pt-4">
-                    <label for="nama_pendonasi" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nama
-                        Pendonasi</label>
-                    <input type="text" id="nama_pendonasi"
+                    <label for="nama" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Username</label>
+                    <input type="text" id="nama"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Nama Pendonasi" required />
+                        placeholder="Nama" required />
+                </div>
+                <div class=" pt-4">
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Alamat Email</label>
+                    <input type="text" id="email"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Alamat Email" required />
+                </div>
+                <div class=" pt-4">
+                    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+                    <input type="text" id="password"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="password" required />
                 </div>
                 <div class=" pt-4">
                     <div class="max-w-full mx-auto">
-                        <label for="program" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Program</label>
-                        <select id="program"
+                        <label for="tipeuser"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tipe User</label>
+                        <select id="tipeuser"
                             class="bg-gray-50 text-gray-900 text-sm rounded-md focus:ring-blue-500  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                             <option selected>Pilih Program</option>
-                            <option value="US">Program Instant Zakat</option>
-                            <option value="CA">Program Instant Wakaf</option>
-                            <option value="FR">Program Instant Sedekah</option>
-                            <option value="DE">Program Berbagi</option>
+                            <option value="1">Admin</option>
+                            <option value="2">Program</option>
+                            <option value="3">Akunting</option>
+                            <option value="4">Gerai</option>
                         </select>
                     </div>
                 </div>
-                <div class=" pt-4">
-                    <div class="max-w-full mx-auto">
-                        <label for="fundraiser" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Fundraiser</label>
-                        <select id="fundraiser"
-                            class="bg-gray-50 text-gray-900 text-sm rounded-md focus:ring-blue-500  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                            <option selected>Pilih Fundraiser</option>
-                            <option value="US">Mughni</option>
-                            <option value="CA">Luthfi</option>
-                            <option value="FR">Farhan</option>
-                            <option value="DE">Rama</option>
-                        </select>
-                    </div>
-                </div>
-                <div class=" pt-4">
-                    <label for="email_pendonasi"
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email Pendonasi</label>
-                    <input type="text" id="email_pendonasi"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Email Pendonasi" required />
-                </div>
-                <div class=" pt-4">
-                    <label for="no_telfoon"
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">No Telfon Pendonasi</label>
-                    <input type="text" id="no_telfon"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="No Telfon Pendonasi" required />
-                </div>
-                <div class=" pt-4">
-                    <label for="jumlah_donasi"
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Jumlah Donasi</label>
-                    <input type="text" id="jumlah_donasi"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Jumlah Donasi" required />
-                </div>
-                <div class=" pt-4">
-                    <label for="tanggal_donasi"
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tanggal Donasi</label>
-                    <input type="date" id="tanggal_donasi"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="" required />
-                </div>
-
-
+                
                 <div class="pt-4 flex justify-end">
                     <a type="button" href="#"
                         class="text-white bg-green-700 border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-semibold rounded-lg text-xl pt-1.5 w-24 h-11 text-center dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">

@@ -51,25 +51,25 @@
                     </a>
                 </div>
             </div>
-            <div class="px-8 mt-6 bg-white rounded-lg">
+            <form class="px-8 mt-6 bg-white rounded-lg">
                 <div class=" pt-4">
                     <label for="judul" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Judul</label>
                     <input type="text" id="judul"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         placeholder="Judul" required />
                 </div>
                 <div class=" pt-4">
                     <label for="slug" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Slug (jika
                         dikosongi akan digenerate otomatis)</label>
                     <input type="text" id="slug"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         placeholder="Slug" required />
                 </div>
                 <div class=" pt-4">
                     <label for="kategori"
                         class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Kategori</label>
                     <input type="text" id="kategori"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         placeholder="Pilih Kategori" required />
                 </div>
 
@@ -224,19 +224,19 @@
                 <label for="target" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Target
                     (Rp)</label>
                 <input type="text" id="target"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Target" required />
 
                 <label for="batasWaktu" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Batas
                     Waktu</label>
                 <input type="text" id="batasWaktu"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Batas Waktu" required />
 
                 <label for="labelDonasi" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Label Tombol
                     Donasi</label>
                 <input type="text" id="labelDonasi"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Tunaikan Zakat Sekarang" required />
 
                 <label for="danaOperasional"
@@ -244,18 +244,18 @@
                     %)</label>
                 <div class="flex">
                     <input type="number" id="danaOperasional"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-l-sm focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-l-md focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         placeholder="Persentase Dana Operasional" required />
-                    <p class="bg-gray-200 border w-8 px-auto text-center border-gray-300 text-black">%</p>
+                    <p class="bg-gray-200 border w-8 px-auto rounded-r-md text-center border-gray-300 text-black">%</p>
                 </div>
 
                 <label for="reward" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Persentase
                     Untuk Reward Fundraiser(dalam %)</label>
                 <div class="flex">
                     <input type="number" id="reward"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-l-sm focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-l-md focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         placeholder="Persentase Reward Fundraiser" required />
-                    <p class="bg-gray-200 border w-8 px-auto text-center border-gray-300 text-black">%</p>
+                    <p class="bg-gray-200 border w-8 px-auto rounded-r-md text-center border-gray-300 text-black">%</p>
                 </div>
 
                 {{-- dropdown custom nominal --}}
@@ -303,7 +303,7 @@
                     </a>
                     {{-- </div> --}}
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 @endsection
