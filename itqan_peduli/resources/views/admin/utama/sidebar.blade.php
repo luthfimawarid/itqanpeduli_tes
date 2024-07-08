@@ -30,8 +30,11 @@
                     </svg>
                 </a>
                 <div class="accordion-content hidden ml-8">
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 1</a>
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 2</a>
+                    <a href="/infaq" class="block py-1 px-2 hover:bg-green-200 rounded ms-3 my-3 hover:text-black">Infaq</a>
+                    <a href="/zakat" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Zakat</a>
+                    <a href="/wakaf" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Wakaf</a>
+                    <a href="/qurban" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Qurban</a>
+                    <a href="/archive" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Archive</a>
                 </div>
             </div>
             <div class="accordion-item">
@@ -45,9 +48,9 @@
                     </svg>
                 </a>
                 <div class="accordion-content hidden ml-8">
-                    <a href="/kategori" class="block py-1 px-2 hover:bg-gray-100">Kategori</a>
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Urutkan Kategori</a>
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Urutkan Program</a>
+                    <a href="/kategori" class="block py-1 px-2 hover:bg-green-200 rounded ms-3 my-3 hover:text-black">Kategori</a>
+                    <a href="/urutkat" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Urutkan Kategori</a>
+                    <a href="/urutpro" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Urutkan Program</a>
                 </div>
             </div>
             <div class="accordion-item">
@@ -61,8 +64,9 @@
                     </svg>
                 </a>
                 <div class="accordion-content hidden ml-8">
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 1</a>
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 2</a>
+                    <a href="/transaksi" class="block py-1 px-2 hover:bg-green-200 rounded ms-3 my-3 hover:text-black">Semua Transaksi</a>
+                    <a href="/online" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Transaksi Online</a>
+                    <a href="/offline" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Transaksi Offline</a>
                 </div>
             </div>
             <a href="/dana" class="flex block py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
@@ -101,8 +105,9 @@
                     </svg>
                 </a>
                 <div class="accordion-content hidden ml-8">
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 1</a>
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 2</a>
+                    <a href="/donatur" class="block py-1 px-2 hover:bg-green-200 rounded ms-3 my-3 hover:text-black">Data Donatur</a>
+                    <a href="/sukses" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Donatur Sukses</a>
+                    <a href="/gagal" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Donatur Gagal</a>
                 </div>
             </div>
             <div class="accordion-item">
@@ -116,8 +121,9 @@
                     </svg>
                 </a>
                 <div class="accordion-content hidden ml-8">
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 1</a>
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 2</a>
+                    <a href="/fundraiser" class="block py-1 px-2 hover:bg-green-200 rounded ms-3 my-3 hover:text-black">List Fundraiser</a>
+                    <a href="/leaderboard" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Leaderboard</a>
+                    <a href="/tranfun" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Transaksi</a>
                 </div>
             </div>
             <div class="accordion-item">
@@ -131,10 +137,124 @@
                     </svg>
                 </a>
                 <div class="accordion-content hidden ml-8">
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 1</a>
-                    <a href="#" class="block py-1 px-2 hover:bg-gray-100">Submenu 2</a>
+                    <a href="/slider" class="block py-1 px-2 hover:bg-green-200 rounded ms-3 my-3 hover:text-black">Slider</a>
+                    <a href="/partner" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Partner</a>
+                    <a href="/katblog" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Kategori Blog</a>
+                    <a href="/blog" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Blog</a>
+                    <a href="/kegiatan" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Kegiatan</a>
+                    <a href="/konten" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Konten</a>
                 </div>
             </div>
+            <hr class="mx-auto rounded-lg my-2" style="width: 80%;">
+            <p class="ms-4">Pengaturan</p>
+            <a href="/user" class="flex block py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
+                <svg class="w-5 h-5 my-auto me-2 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M12 14a3 3 0 0 1 3-3h4a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-4a3 3 0 0 1-3-3Zm3-1a1 1 0 1 0 0 2h4v-2h-4Z" -rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M12.293 3.293a1 1 0 0 1 1.414 0L16.414 6h-2.828l-1.293-1.293a1 1 0 0 1 0-1.414ZM12.414 6 9.707 3.293a1 1 0 0 0-1.414 0L5.586 6h6.828ZM4.586 7l-.056.055A2 2 0 0 0 3 9v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2h-4a5 5 0 0 1 0-10h4a2 2 0 0 0-1.53-1.945L17.414 7H4.586Z" -rule="evenodd"/>
+                </svg>
+                User
+            </a>
+            <a href="/bank" class="flex block py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
+                <svg class="w-5 h-5 my-auto me-2 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M12 14a3 3 0 0 1 3-3h4a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-4a3 3 0 0 1-3-3Zm3-1a1 1 0 1 0 0 2h4v-2h-4Z" -rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M12.293 3.293a1 1 0 0 1 1.414 0L16.414 6h-2.828l-1.293-1.293a1 1 0 0 1 0-1.414ZM12.414 6 9.707 3.293a1 1 0 0 0-1.414 0L5.586 6h6.828ZM4.586 7l-.056.055A2 2 0 0 0 3 9v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2h-4a5 5 0 0 1 0-10h4a2 2 0 0 0-1.53-1.945L17.414 7H4.586Z" -rule="evenodd"/>
+                </svg>
+                Data Bank
+            </a>
+            <div class="accordion-item">
+                <a href="#" class="accordion-header flex items-center py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
+                    <svg class="w-5 h-5 my-auto me-2 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z" -rule="evenodd"/>
+                    </svg>
+                    Notifikasi Whatsapp
+                    <svg class="w-3 h-3 my-auto ms-auto text-gray-400 dark:text-white accordion-arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" strokeecap="round" strokeejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                    </svg>
+                </a>
+                <div class="accordion-content hidden ml-8">
+                    <a href="/template" class="block py-1 px-2 hover:bg-green-200 rounded ms-3 my-3 hover:text-black">Template</a>
+                    <a href="/connect" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Connect Whatsapp</a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <a href="#" class="accordion-header flex items-center py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
+                    <svg class="w-5 h-5 my-auto me-2 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z" -rule="evenodd"/>
+                    </svg>
+                    Email
+                    <svg class="w-3 h-3 my-auto ms-auto text-gray-400 dark:text-white accordion-arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" strokeecap="round" strokeejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                    </svg>
+                </a>
+                <div class="accordion-content hidden ml-8">
+                    <a href="/notifmail" class="block py-1 px-2 hover:bg-green-200 rounded ms-3 my-3 hover:text-black">Notifikasi Mail</a>
+                    <a href="/mail" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Mail Setting</a>
+                </div>
+            </div>
+            <a href="/berbagisetting" class="flex block py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
+                <svg class="w-5 h-5 my-auto me-2 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M12 14a3 3 0 0 1 3-3h4a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-4a3 3 0 0 1-3-3Zm3-1a1 1 0 1 0 0 2h4v-2h-4Z" -rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M12.293 3.293a1 1 0 0 1 1.414 0L16.414 6h-2.828l-1.293-1.293a1 1 0 0 1 0-1.414ZM12.414 6 9.707 3.293a1 1 0 0 0-1.414 0L5.586 6h6.828ZM4.586 7l-.056.055A2 2 0 0 0 3 9v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2h-4a5 5 0 0 1 0-10h4a2 2 0 0 0-1.53-1.945L17.414 7H4.586Z" -rule="evenodd"/>
+                </svg>
+                MediaBerbagi Setting
+            </a>
+            <a href="/data" class="flex block py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
+                <svg class="w-5 h-5 my-auto me-2 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M12 14a3 3 0 0 1 3-3h4a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-4a3 3 0 0 1-3-3Zm3-1a1 1 0 1 0 0 2h4v-2h-4Z" -rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M12.293 3.293a1 1 0 0 1 1.414 0L16.414 6h-2.828l-1.293-1.293a1 1 0 0 1 0-1.414ZM12.414 6 9.707 3.293a1 1 0 0 0-1.414 0L5.586 6h6.828ZM4.586 7l-.056.055A2 2 0 0 0 3 9v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2h-4a5 5 0 0 1 0-10h4a2 2 0 0 0-1.53-1.945L17.414 7H4.586Z" -rule="evenodd"/>
+                </svg>
+                Penggunaan Data
+            </a>
+            <div class="accordion-item">
+                <a href="#" class="accordion-header flex items-center py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
+                    <svg class="w-5 h-5 my-auto me-2 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z" -rule="evenodd"/>
+                    </svg>
+                    Analytics
+                    <svg class="w-3 h-3 my-auto ms-auto text-gray-400 dark:text-white accordion-arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" strokeecap="round" strokeejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                    </svg>
+                </a>
+                <div class="accordion-content hidden ml-8">
+                    <a href="/analisis" class="block py-1 px-2 hover:bg-green-200 rounded ms-3 my-3 hover:text-black">Google Analytic</a>
+                    <a href="/pixel" class="block py-1 px-2 hover:bg-green-200 ms-3 my-3 hover:text-black">Facebook Pixel</a>
+                </div>
+            </div>
+            <a href="/font" class="flex block py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
+                <svg class="w-5 h-5 my-auto me-2 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M12 14a3 3 0 0 1 3-3h4a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-4a3 3 0 0 1-3-3Zm3-1a1 1 0 1 0 0 2h4v-2h-4Z" -rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M12.293 3.293a1 1 0 0 1 1.414 0L16.414 6h-2.828l-1.293-1.293a1 1 0 0 1 0-1.414ZM12.414 6 9.707 3.293a1 1 0 0 0-1.414 0L5.586 6h6.828ZM4.586 7l-.056.055A2 2 0 0 0 3 9v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2h-4a5 5 0 0 1 0-10h4a2 2 0 0 0-1.53-1.945L17.414 7H4.586Z" -rule="evenodd"/>
+                </svg>
+                Google Font
+            </a>
+            <a href="/payment" class="flex block py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
+                <svg class="w-5 h-5 my-auto me-2 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M12 14a3 3 0 0 1 3-3h4a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-4a3 3 0 0 1-3-3Zm3-1a1 1 0 1 0 0 2h4v-2h-4Z" -rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M12.293 3.293a1 1 0 0 1 1.414 0L16.414 6h-2.828l-1.293-1.293a1 1 0 0 1 0-1.414ZM12.414 6 9.707 3.293a1 1 0 0 0-1.414 0L5.586 6h6.828ZM4.586 7l-.056.055A2 2 0 0 0 3 9v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2h-4a5 5 0 0 1 0-10h4a2 2 0 0 0-1.53-1.945L17.414 7H4.586Z" -rule="evenodd"/>
+                </svg>
+                Payment Gateway
+            </a>
+            <a href="/setting" class="flex block py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
+                <svg class="w-5 h-5 my-auto me-2 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M12 14a3 3 0 0 1 3-3h4a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-4a3 3 0 0 1-3-3Zm3-1a1 1 0 1 0 0 2h4v-2h-4Z" -rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M12.293 3.293a1 1 0 0 1 1.414 0L16.414 6h-2.828l-1.293-1.293a1 1 0 0 1 0-1.414ZM12.414 6 9.707 3.293a1 1 0 0 0-1.414 0L5.586 6h6.828ZM4.586 7l-.056.055A2 2 0 0 0 3 9v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2h-4a5 5 0 0 1 0-10h4a2 2 0 0 0-1.53-1.945L17.414 7H4.586Z" -rule="evenodd"/>
+                </svg>
+                Pengaturan
+            </a>
+            <a href="/update" class="flex block py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
+                <svg class="w-5 h-5 my-auto me-2 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M12 14a3 3 0 0 1 3-3h4a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-4a3 3 0 0 1-3-3Zm3-1a1 1 0 1 0 0 2h4v-2h-4Z" -rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M12.293 3.293a1 1 0 0 1 1.414 0L16.414 6h-2.828l-1.293-1.293a1 1 0 0 1 0-1.414ZM12.414 6 9.707 3.293a1 1 0 0 0-1.414 0L5.586 6h6.828ZM4.586 7l-.056.055A2 2 0 0 0 3 9v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2h-4a5 5 0 0 1 0-10h4a2 2 0 0 0-1.53-1.945L17.414 7H4.586Z" -rule="evenodd"/>
+                </svg>
+                Update Software
+            </a>
+            <a href="/pembayaran" class="flex block py-3.5 px-4 rounded transition duration-200 hover:bg-green-200 hover:text-black">
+                <svg class="w-5 h-5 my-auto me-2 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M12 14a3 3 0 0 1 3-3h4a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-4a3 3 0 0 1-3-3Zm3-1a1 1 0 1 0 0 2h4v-2h-4Z" -rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M12.293 3.293a1 1 0 0 1 1.414 0L16.414 6h-2.828l-1.293-1.293a1 1 0 0 1 0-1.414ZM12.414 6 9.707 3.293a1 1 0 0 0-1.414 0L5.586 6h6.828ZM4.586 7l-.056.055A2 2 0 0 0 3 9v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2h-4a5 5 0 0 1 0-10h4a2 2 0 0 0-1.53-1.945L17.414 7H4.586Z" -rule="evenodd"/>
+                </svg>
+                Pembayaran
+            </a>
         </ul>
    </div>
 </aside>

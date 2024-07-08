@@ -30,6 +30,18 @@ Route::get('/kategori', function () {
     return view('admin.isi.kategori');
 });
 
+Route::get('/fundraiser', function () {
+    return view('admin.fundraiser.fundraiser');
+});
+
+Route::get('/leaderboard', function () {
+    return view('admin.fundraiser.leaderboard');
+});
+
+Route::get('/transaksifundraiser', function () {
+    return view('admin.fundraiser.transaksi');
+});
+
 Route::get('/inputpenggalanganDana', function () {
     return view('admin.isi.publikasiProgram.pengalanganDana');
 });
