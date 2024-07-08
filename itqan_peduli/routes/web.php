@@ -48,6 +48,43 @@ Route::get('/inputkelolaKategori', function () {
 Route::get('/inputdonasiManual', function () {
     return view('admin.isi.transaksi.donasiManual');
 });
+Route::get('/inputpenyaluranDana', function () {
+    return view('admin.isi.penyaluranDana.penyaluranDana');
+});
+Route::get('/inputhakLembaga', function () {
+    return view('admin.isi.penyaluranDana.hakLembaga');
+});
+Route::get('/inputhakMediaBerbagi', function () {
+    return view('admin.isi.penyaluranDana.hakMediaBerbagi');
+});
+Route::get('/inputupdateLaporan', function () {
+    return view('admin.isi.penyaluranDana.updateLaporan');
+});
+Route::get('/inputkelolaSlider', function () {
+    return view('admin.isi.webUtama.kelolaSlider');
+});
+Route::get('/inputkelolaPartner', function () {
+    return view('admin.isi.webUtama.kelolaPartner');
+});
+Route::get('/inputwebKelolaKategori', function () {
+    return view('admin.isi.webUtama.kelolaKategori');
+});
+Route::get('/inputkelolaBlog', function () {
+    return view('admin.isi.webUtama.kelolaBlog');
+});
+Route::get('/inputkelolaKegiatan', function () {
+    return view('admin.isi.webUtama.kelolaKegiatan');
+});
+Route::get('/inputkelolaUser', function () {
+    return view('admin.isi.pengaturan.kelolaUser');
+});
+Route::get('/inputtambahBank', function () {
+    return view('admin.isi.pengaturan.tambahBank');
+});
+Route::get('/inputkelolaNotifikasi', function () {
+    return view('admin.isi.pengaturan.kelolaNotifikasi');
+});
+
 
 
 // User

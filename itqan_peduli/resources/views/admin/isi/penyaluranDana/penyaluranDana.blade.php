@@ -3,7 +3,7 @@
     <div class="p-4 sm:ml-80">
         <div class="header flex justify-between mt-3">
             <div class="kiri">
-                <p class="text-2xl font-semibold">Penggalangan Dana</p>
+                <p class="text-2xl font-semibold">Penyaluran Dana</p>
             </div>
             <div class="kanan">
                 <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
@@ -53,39 +53,31 @@
             </div>
             <form class="px-8 mt-6 bg-white rounded-lg">
                 <div class=" pt-4">
-                    <label for="judul" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Judul</label>
-                    <input type="text" id="judul"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Judul" required />
+                    <div class="max-w-full mx-auto">
+                        <label for="program"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Program</label>
+                        <select id="program"
+                            class="bg-gray-50 text-gray-900 text-sm rounded-md focus:ring-blue-500  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                            <option selected>Pilih Program</option>
+                            <option value="US">Program Instant Zakat</option>
+                            <option value="CA">Program Instant Wakaf</option>
+                            <option value="FR">Program Instant Sedekah</option>
+                            <option value="DE">Program Berbagi</option>
+                        </select>
+                    </div>
                 </div>
                 <div class=" pt-4">
-                    <label for="slug" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Slug (jika
-                        dikosongi akan digenerate otomatis)</label>
-                    <input type="text" id="slug"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Slug" required />
-                </div>
-                <div class=" pt-4">
-                    <label for="kategori"
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Kategori</label>
-                    <input type="text" id="kategori"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Pilih Kategori" required />
-                </div>
-
-                <div class="pt-4">
-
-                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="file_input">Upload
-                        file
-                        <p class="text-yellow-500">campaign image recommendation 600x900px</p>
-                    </label>
-                    <input
-                        class="block  text-sm text-gray-900 border border-gray-300 rounded-md cursor-pointer dark:text-gray-400 dark:bg-gray-700 dark:border-gray-600 "
-                        id="file_input" type="file">
-
+                    <label for="nominal"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nominal</label>
+                    <div class="flex">
+                        <p class="bg-gray-200 border w-10 py-1.5 rounded-l-md text-center border-gray-300 text-black">Rp</p>
+                        <input type="number" id="nominal"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-r-md focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="" value="0" required />
+                    </div>
                 </div>
                 <div class="pt-4">
-                    <p class="text-black text-sm font-medium my-2">Konten</p>
+                    <p class="text-black text-sm font-medium my-2">Keterangan/ Judul Penyaluran</p>
                     <div
                         class="w-full mb-4 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
                         <div class="flex items-center justify-between px-3 py-2 border-b dark:border-gray-600">
@@ -210,98 +202,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="pt-4">
-                    <p class="text-black text-sm font-medium">Program Unlimited</p>
-                    <p class="text-yellow-500">* jika dicentang, target tanggal dan nominal tidak diisi</p>
-                    <div class="flex items-center mb-4">
-                        <input id="default-checkbox" type="checkbox" value=""
-                            class="w-4 h-4 my-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                        <label for="default-checkbox"
-                        class="ms-2 text-sm font-normal text-gray-400 dark:text-gray-300">Program Unlimited ?</label>
-                    </div>
-                </div>
-
-                <label for="target" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Target
-                    (Rp)</label>
-                <input type="text" id="target"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="Target" required />
-
-                <label for="batasWaktu" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Batas
-                    Waktu</label>
-                <input type="text" id="batasWaktu"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="Batas Waktu" required />
-
-                <label for="labelDonasi" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Label Tombol
-                    Donasi</label>
-                <input type="text" id="labelDonasi"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="Donasi Sekarang" required />
-
-                <label for="danaOperasional"
-                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Persentase Dana Operasional (dalam
-                    %)</label>
+                <label for="penerima_manfaat"
+                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Penerima Manfaat</label>
                 <div class="flex">
-                    <input type="number" id="danaOperasional"
+                    <input type="number" id="penerima_manfaat"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-l-md focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Persentase Dana Operasional" required />
-                    <p class="bg-gray-200 border w-8 px-auto text-center border-gray-300 text-black">%</p>
+                        placeholder="" required />
+                    <p class="bg-gray-200 border w-28 py-1.5 rounded-r-md text-center border-gray-300 text-black">Orang</p>
                 </div>
-
-                <label for="reward" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Persentase
-                    Untuk Reward Fundraiser(dalam %)</label>
-                <div class="flex">
-                    <input type="number" id="reward"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-l-md focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Persentase Reward Fundraiser" required />
-                    <p class="bg-gray-200 border w-8 px-auto text-center border-gray-300 text-black">%</p>
-                </div>
-
-                {{-- dropdown custom nominal --}}
-                <div class="pt-4" id="accordion-collapse" data-accordion="collapse">
-                    <h2 id="accordion-collapse-heading-1">
-                        <button class="underline text-gray-400 hover:text-blue-400"
-                            data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
-                            aria-controls="accordion-collapse-body-1">Custom Nominal</button>
-                    </h2>
-                    <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-                        <label for="target" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nominal
-                            Custom (Optional)</label>
-                        <input type="number" id="target" value="100000"
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                            placeholder="Target" required />
-                        <input type="number" id="target" value="200000"
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                            placeholder="Target" required />
-                        <input type="number" id="target" value="300000"
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                            placeholder="Target" required />
-                        <input type="number" id="target" value="400000"
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                            placeholder="Target" required />
-                    </div>
-                </div>
-
                 <div class="pt-4 flex justify-end">
-                    <div class="text">
-                        <span class="text-sm font-medium end-0 text-gray-900 dark:text-gray-300">Tampil Program
-                        </span>
-                        <p class="font-normal text-yellow-500">*Jika tidak di check program tidak akan tampil</p>
-                    </div>
-                    <label class="inline-flex items-center cursor-pointer">
-                        <input type="checkbox" value="" class="sr-only peer" checked>
-
-                        <div
-                            class="relative m-3 w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
-                        </div>
-                    </label>
-                    {{-- <div class="kanan my-auto"> --}}
                     <a type="button" href="#"
                         class="text-white bg-green-700 border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-semibold rounded-lg text-xl pt-1.5 w-24 h-11 text-center dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
                         Simpan
                     </a>
-                    {{-- </div> --}}
                 </div>
             </form>
         </div>

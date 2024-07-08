@@ -51,7 +51,7 @@
                     </a>
                 </div>
             </div>
-            <div class="px-8 mt-6 bg-white rounded-lg">
+            <form class="px-8 mt-6 bg-white rounded-lg">
                 <div class=" pt-4">
                     <label for="judul" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Judul</label>
                     <input type="text" id="judul"
@@ -81,7 +81,7 @@
                         Simpan
                     </a>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 @endsection
