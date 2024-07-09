@@ -12,7 +12,7 @@
 
 <body class="bg-gray-200 max-w-[512px] mx-auto">
     <div class="p-4 bg-white">
-        <img src="/images/logomediaberbagi.png" class="w-48 h-auto" alt="">
+        {{-- <img src="/images/logomediaberbagi.png" class="w-48 h-auto" alt=""> --}}
 
 
         <a href="{{ url('/akun') }}" type="button"
@@ -24,7 +24,7 @@
             </svg>
         </a>
 
-        <div class="isi">
+        {{-- <div class="isi">
             <div class="text-2xl font-bold text-black dark:text-white">Daftar Duta Amal</div>
             <div class="text-lg text-black dark:text-white">Jadi pasukan kebaikan bersama kami Yayasan Media Berbagi
             </div>
@@ -35,34 +35,9 @@
                 <label for="jenis_data"
                     class="absolute text-sm-bold text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-black-600 peer-focus:dark:text-black-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Jenis
                     Data 
-                    {{-- <svg class="w-2.5 h-2.5 ms-3 me-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        fill="none" viewBox="0 0 10 6">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="m1 1 4 4 4-4" />
-                    </svg> --}}
+
                 </label>
-                {{-- <div id="jenis_data"
-                    class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-                        <li>
-                            <a href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-                        </li>
-                        <li>
-                            <a href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-                        </li>
-                        <li>
-                            <a href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign
-                                out</a>
-                        </li>
-                    </ul>
-                </div> --}}
+                
             </div>
             <div class="relative mt-4 mb-2">
                 <input type="text" id="nama_lengkap"
@@ -125,7 +100,7 @@
                 class="px-6 py-3.5 mt-6 w-full   text-base font-medium text-white inline-flex items-center border border-green-700 bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-100 rounded-2xl dark:bg-gray-400 dark:hover:bg-gray-500 dark:focus:ring-gray-600">
                 <p class="text-white mx-auto text-2xl text-center font-semibold">Pengaturan</p>
             </button>
-        </div>
+        </div> --}}
     </div>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
 

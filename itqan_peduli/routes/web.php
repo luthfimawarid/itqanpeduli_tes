@@ -150,7 +150,7 @@ Route::get('/home', function () {
 });
 
 Route::get('/akun', function () {
-    return view('user.akun.index');
+    return view('user.akun.main');
 });
 
 Route::get('/dutaamal', function () {
@@ -159,5 +159,17 @@ Route::get('/dutaamal', function () {
 
 Route::get('/bg', function () {
     return view('user.akun.background');
+});
+
+Route::get('login', function () {
+    return view('user.login.index');
+});
+
+Route::get('registrasi', function () {
+    return view('user.login.registrasi');
+});
+
+Route::get('bantuan', function () {
+    return view('user.akun.bantuan');
 });
 
