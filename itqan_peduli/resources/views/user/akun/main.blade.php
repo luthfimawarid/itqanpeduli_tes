@@ -156,7 +156,7 @@
                         d="m9 5 7 7-7 7" />
                 </svg>
             </button>
-            <button type="button"
+            <a href="{{  url('/bantuan') }}" type="button"
                 class="px-6 py-3.5  w-full mt-2 text-base font-medium text-white inline-flex items-center border border-gray-400 bg-gray-300 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-2xl text-center dark:bg-gray-400 dark:hover:bg-gray-500 dark:focus:ring-gray-600">
                 <p class="text-gray-600 text-2xl font-semibold">Bantuan</p>
                 <svg class="w-8 h-8 my-auto ms-auto end-0 text-gray-600 dark:text-white" aria-hidden="true"
@@ -165,8 +165,8 @@
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="m9 5 7 7-7 7" />
                 </svg>
-            </button>
-            <button type="button"
+            </a>
+            <a href="{{ url('/syaratketentuan') }}" type="button"
                 class="px-6 py-3.5  w-full mt-2 text-base font-medium text-white inline-flex items-center border border-gray-400 bg-gray-300 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-2xl text-center dark:bg-gray-400 dark:hover:bg-gray-500 dark:focus:ring-gray-600">
                 <p class="text-gray-600 text-2xl font-semibold">Syarat & Ketentuan</p>
                 <svg class="w-8 h-8 my-auto ms-auto end-0 text-gray-600 dark:text-white" aria-hidden="true"
@@ -175,8 +175,8 @@
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="m9 5 7 7-7 7" />
                 </svg>
-            </button>
-            <button type="button"
+            </a>
+            <a href="{{ url('/aboutus') }}" type="button"
                 class="px-6 py-3.5 flex w-full mt-2 text-base font-medium text-white items-center border border-gray-400 bg-gray-300 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-2xl text-center dark:bg-gray-400 dark:hover:bg-gray-500 dark:focus:ring-gray-600">
                 <div class="kiri">
                     <p class="text-left text-gray-600 text-2xl font-semibold">Tentang Kami</p>
@@ -212,7 +212,7 @@
                             d="m9 5 7 7-7 7" />
                     </svg>
                 </div>
-            </button>
+            </a>
 
 
 
@@ -269,7 +269,7 @@
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
 </body>
 <footer>
-    @include('user.home.navbottom')
+    @include('user.home.footer')
 </footer>
 
 </html>

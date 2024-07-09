@@ -175,4 +175,10 @@ Route::get('registrasi', function () {
 Route::get('bantuan', function () {
     return view('user.akun.bantuan');
 });
+Route::get('aboutus', function () {
+    return view('user.akun.tentangKami');
+});
+Route::get('syaratketentuan', function () {
+    return view('user.akun.syaratketentuan');
+});
 

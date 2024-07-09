@@ -101,7 +101,7 @@
 
             </div>
 
-            <div class="flex text-gray-400 gap-2 justify-center">
+            <div class="flex text-gray-400 gap-3 justify-center">
                 <p>Tentang Kami </p>
                 |
                 <p> Syarat & Ketentuan </p>
