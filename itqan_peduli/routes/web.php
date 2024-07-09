@@ -129,6 +129,9 @@ Route::get('/inputkelolaNotifikasi', function () {
     return view('admin.isi.pengaturan.kelolaNotifikasi');
 });
 
+Route::get('/program', function () {
+    return view('user.program.program');
+});
 Route::get('/googleAnalytics', function() {
     return view('admin.isi.analytics.googleAnalytics');
 });

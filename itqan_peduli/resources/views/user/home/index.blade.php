@@ -10,16 +10,14 @@
     <title>Document</title>
 </head>
 
-<body class="bg-gray-200 max-w-[512px] mx-auto">
+<body class="bg-gray-200 max-w-[512px] mx-auto overflow-auto">
     {{-- <div class=""> --}}
-        <header class="shadow shadow-xl shadow-black z-50">
+        <!-- <header class="z-50">
             @include('user.home.navbar')
-        </header>
-        <main class="z-0 ">
-            @include('user.home.main')
-        </main>        
+        </header> -->
+        @yield('content')       
         <footer>
-            @include('user.home.navbottom')
+            @include('user.home.footer')
         </footer>
     {{-- </div> --}}
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
