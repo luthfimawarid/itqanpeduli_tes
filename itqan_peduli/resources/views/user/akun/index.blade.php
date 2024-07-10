@@ -11,10 +11,6 @@
 </head>
 
 <body class="bg-gray-200 max-w-[512px] mx-auto">
-    {{-- <div class=""> --}}
-        {{-- <header class="shadow shadow-xl shadow-black z-50">
-            @include('user.home.navbar')
-        </header> --}}
         <main class="z-0 ">
             @include('user.akun.background')
         </main>        

@@ -150,7 +150,7 @@ Route::get('/home', function () {
 });
 
 Route::get('/akun', function () {
-    return view('user.akun.index');
+    return view('user.akun.main');
 });
 
 Route::get('/dutaamal', function () {
@@ -159,6 +159,39 @@ Route::get('/dutaamal', function () {
 
 Route::get('/bg', function () {
     return view('user.akun.background');
+});
+
+Route::get('login', function () {
+    return view('user.login.index');
+});
+
+Route::get('registrasi', function () {
+    return view('user.login.registrasi');
+});
+Route::get('lupapassword', function () {
+    return view('user.login.lupapassword');
+});
+Route::get('verifikasi', function () {
+    return view('user.login.verifikasi');
+});
+Route::get('reset', function () {
+    return view('user.login.resetpassword');
+});
+Route::get('berhasil', function () {
+    return view('user.login.berhasil');
+});
+
+Route::get('bantuan', function () {
+    return view('user.akun.bantuan');
+});
+Route::get('aboutus', function () {
+    return view('user.akun.tentangKami');
+});
+Route::get('syaratketentuan', function () {
+    return view('user.akun.syaratketentuan');
+});
+Route::get('editprofil', function () {
+    return view('user.akun.editProfil');
 });
 
 Route::get('/program', function () {
