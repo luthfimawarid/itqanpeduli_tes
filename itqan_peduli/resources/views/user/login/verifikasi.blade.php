@@ -14,7 +14,7 @@
     <div class="p-4 bg-white">
         <img src="/images/logomediaberbagi.png" class="w-48 h-auto" alt="">
 
-        <a href="{{ url('/akun') }}" type="button"
+        <a href="{{ url('/lupapassword') }}" type="button"
             class="text-white my-6 bg-gray-300 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-gray-200 dark:hover:bg-gray-300 dark:focus:ring-gray-400">
             <svg class="w-6 h-6  text-green-700  dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                 width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -64,10 +64,10 @@
                     </div>
                 {{-- </div> --}}
 
-                <button type="button"
+                <a href="{{  url('/reset') }}" type="button"
                     class="px-6 py-3.5  w-full mt-8 mb-4 text-base font-medium text-white inline-flex items-center border border-green-800 bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-100 rounded-2xl dark:bg-gray-400 dark:hover:bg-gray-500 dark:focus:ring-gray-600">
                     <p class="text-white mx-auto text-xl text-center font-semibold">Verifikasi</p>
-                </button>
+                </a>
             </form>
 
             <div class="text-center">

@@ -53,10 +53,10 @@
                         </svg>
                     </div>
                 </div>
-                <button type="button"
+                <a href="{{  url('/berhasil') }}" type="button"
                     class="px-6 py-3.5  w-full mt-4 mb-4 text-base font-medium text-white inline-flex items-center border border-green-800 bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-100 rounded-2xl dark:bg-gray-400 dark:hover:bg-gray-500 dark:focus:ring-gray-600">
                     <p class="text-white mx-auto text-xl text-center font-semibold">Ubah Password</p>
-                </button>
+                </a>
             </form>
 
             <div class="text-center">

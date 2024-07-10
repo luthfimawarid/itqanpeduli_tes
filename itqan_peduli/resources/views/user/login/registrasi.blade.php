@@ -15,7 +15,7 @@
         <img src="/images/logomediaberbagi.png" class="w-48 h-auto" alt="">
 
 
-        <a href="{{ url('/akun') }}" type="button"
+        <a href="{{ url('/login') }}" type="button"
             class="text-white my-6 bg-gray-300 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-gray-200 dark:hover:bg-gray-300 dark:focus:ring-gray-400">
             <svg class="w-6 h-6  text-green-700  dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                 width="24" height="24" fill="none" viewBox="0 0 24 24">

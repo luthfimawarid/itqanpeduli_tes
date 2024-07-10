@@ -193,4 +193,7 @@ Route::get('aboutus', function () {
 Route::get('syaratketentuan', function () {
     return view('user.akun.syaratketentuan');
 });
+Route::get('editprofil', function () {
+    return view('user.akun.editProfil');
+});
 
