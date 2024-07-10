@@ -196,4 +196,7 @@ Route::get('syaratketentuan', function () {
 Route::get('editprofil', function () {
     return view('user.akun.editProfil');
 });
+Route::get('pengaturan', function () {
+    return view('user.akun.pengaturan');
+});
 

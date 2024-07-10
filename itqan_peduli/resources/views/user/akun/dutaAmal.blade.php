@@ -128,7 +128,7 @@
 
             <button type="button"
                 class="px-6 py-3.5 mt-6 w-full   text-base font-medium text-white inline-flex items-center border border-green-700 bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-100 rounded-2xl dark:bg-gray-400 dark:hover:bg-gray-500 dark:focus:ring-gray-600">
-                <p class="text-white mx-auto text-2xl text-center font-semibold">Daftar Duta Amal</p>
+                <p class="text-white mx-auto text-lg text-center font-semibold">Daftar Duta Amal</p>
             </button>
         </div>
     </div>
