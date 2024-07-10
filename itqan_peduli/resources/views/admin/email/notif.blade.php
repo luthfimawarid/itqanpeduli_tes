@@ -35,9 +35,16 @@
             </div>
         </div>
         <div class="subheader text-white my-8">
-            <div class="welcome bg-green-700 me-30 w-full p-5 rounded-lg">
-                <p class="text-2xl font-semibold">Dana Terkumpul</p>
-                <p class="text-sm text-gray-300 mt-2 font-medium">Pantau progress donasi campaign aktif</p>
+            <div class="welcome flex justify-between bg-green-700 me-30 w-full py-8 px-4 rounded-lg">
+                <div class="kiri my-auto">
+                    <p class="text-2xl font-semibold">Notifikasi Email</p>
+                    <p class="text-sm text-gray-300 mt-2 font-normal">kirim email blast ke daftar email donatur aktif</p>
+                </div>
+                <div class="kanan my-auto">
+                    <a type="button" href="#" class="text-green-700 bg-white p-10 border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-semibold rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                        Buat Notifikasi
+                    </a>
+                </div>
             </div>
         </div>
         <div class="program">
