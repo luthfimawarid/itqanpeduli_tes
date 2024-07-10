@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div class="relative z-20 px-4 pt-4 pb-20">
+        <div class="relative z-20 px-4 pt-4 pb-28">
             <p class="text-xl font-semibold text-white dark:text-black">Akun</p>
 
             <div class="flex flex-col pt-3 pb-5 items-center gap-4">

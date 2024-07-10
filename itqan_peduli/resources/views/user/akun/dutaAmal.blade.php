@@ -28,7 +28,7 @@
             <div class="text-2xl font-bold text-black dark:text-white">Daftar Duta Amal</div>
             <div class="text-lg text-black dark:text-white">Jadi pasukan kebaikan bersama kami Yayasan Media Berbagi
             </div>
-            <div class="relative mt-4 mb-2">
+            <div class="relative my-4">
                 <label for="jenis_duta"
                     class="absolute -top-3 left-3 bg-white px-1 font-semibold text-sm text-gray-600">Jenis Duta</label>
                 <select id="jenis_duta"
@@ -40,35 +40,28 @@
                     <option value="DE">Germany</option>
                 </select>
             </div>
-            {{-- <div class="relative mt-6">
-                <label for="email"
-                    class="absolute -top-3 left-3 bg-white px-1 font-semibold text-sm text-gray-600">Alamat
-                    Email</label>
-                <input type="email" id="email" placeholder="contoh: mediaberbagi@gmail.com"
-                    class="w-full py-3 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-green-600 focus:border-transparent">
-            </div> --}}
 
-            <div class="relative mt-4 mb-2">
+            <div class="relative my-4">
                 <label for="nama_lengkap"
                     class="absolute -top-3 left-3 bg-white px-1 font-semibold text-sm text-gray-600">Nama
                     Lengkap</label>
                 <input type="text" id="nama_lengkap" placeholder="masukan nama lengkpa anda "
                     class="w-full py-3 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-green-600 focus:border-transparent">
             </div>
-            <div class="relative mt-4 mb-2">
+            <div class="relative my-4">
                 <label for="no_wa"
                     class="absolute -top-3 left-3 bg-white px-1 font-semibold text-sm text-gray-600">Nomor
                     Whatsapp</label>
                 <input type="text" id="no_wa" placeholder="contoh: 0821-21xx-xxxx "
                     class="w-full py-3 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-green-600 focus:border-transparent">
             </div>
-            <div class="relative mt-4 mb-2">
+            <div class="relative my-4">
                 <label for="alamat_email"
                     class="absolute -top-3 left-3 bg-white px-1 font-semibold text-sm text-gray-600">Alamat Email</label>
                 <input type="email" id="alamat_email" placeholder="contoh: mediaberbagi@gmail.com "
                     class="w-full py-3 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-green-600 focus:border-transparent">
             </div>
-            <div class="relative mt-4 mb-2">
+            <div class="relative my-4">
                 <label for="provinsi"
                     class="absolute -top-3 left-3 bg-white px-1 font-semibold text-sm text-gray-600">Provinsi</label>
                 <select id="provinsi"
@@ -80,7 +73,7 @@
                     <option value="DE">Germany</option>
                 </select>
             </div>
-            <div class="relative mt-4 mb-2">
+            <div class="relative my-4">
                 <label for="kabkota"
                     class="absolute -top-3 left-3 bg-white px-1 font-semibold text-sm text-gray-600">Kab/ Kota</label>
                 <select id="kabkota"
@@ -92,7 +85,7 @@
                     <option value="DE">Germany</option>
                 </select>
             </div>
-            <div class="relative mt-4 mb-2">
+            <div class="relative my-4">
                 <label for="password1"
                         class="absolute -top-3 left-3 bg-white px-1 font-semibold text-sm text-gray-600">Kata sandi</label>
                     <input type="password" id="password1" placeholder="masukan kata sandi anda."
@@ -109,7 +102,7 @@
                     </div>
             </div>
 
-            <div class="relative mt-4 mb-2">
+            <div class="relative my-4">
                 <label for="password1"
                         class="absolute -top-3 left-3 bg-white px-1 font-semibold text-sm text-gray-600">Konfirmasi Kata sandi</label>
                     <input type="password" id="password2" placeholder="masukan kata sandi anda."
