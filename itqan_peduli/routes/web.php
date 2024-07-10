@@ -129,9 +129,6 @@ Route::get('/inputkelolaNotifikasi', function () {
     return view('admin.isi.pengaturan.kelolaNotifikasi');
 });
 
-Route::get('/program', function () {
-    return view('user.program.program');
-});
 Route::get('/googleAnalytics', function() {
     return view('admin.isi.analytics.googleAnalytics');
 });
@@ -200,3 +197,22 @@ Route::get('pengaturan', function () {
     return view('user.akun.pengaturan');
 });
 
+Route::get('/program', function () {
+    return view('user.program.program');
+});
+
+Route::get('/artikel', function () {
+    return view('user.program.artikel');
+});
+
+Route::get('/donatur', function () {
+    return view('user.program.donatur');
+});
+
+Route::get('/yayasan', function () {
+    return view('user.program.yayasan');
+});
+
+Route::get('/duta', function () {
+    return view('user.program.dutaamal');
+});
