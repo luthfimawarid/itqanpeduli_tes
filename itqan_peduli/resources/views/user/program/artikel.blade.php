@@ -1,4 +1,4 @@
-@extends('user.home.index')
+@extends('user.home.index2')
 
 @section('content')
 
@@ -176,8 +176,8 @@
     </div>
 
     <!-- Modal HTML -->
-    <div id="myModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden overflow-y-auto z-50">
-        <div class="bg-white p-6 rounded-lg shadow-md w-3/4 md:w-1/2 lg:w-1/3 my-24">
+    <div id="myModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 hidden overflow-y-auto">
+        <div class="bg-white p-6 rounded-lg shadow-md w-3/4 md:w-1/2 lg:w-1/3 mt-14 mb-4">
             <div class="flex justify-between items-center border-b pb-3">
                 <h3 class="text-lg font-semibold">Rincian Penggunaan Dana</h3>
                 <button id="closeModal" class="text-gray-500 hover:text-gray-700">
