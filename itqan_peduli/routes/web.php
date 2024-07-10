@@ -171,6 +171,18 @@ Route::get('login', function () {
 Route::get('registrasi', function () {
     return view('user.login.registrasi');
 });
+Route::get('lupapassword', function () {
+    return view('user.login.lupapassword');
+});
+Route::get('verifikasi', function () {
+    return view('user.login.verifikasi');
+});
+Route::get('reset', function () {
+    return view('user.login.resetpassword');
+});
+Route::get('berhasil', function () {
+    return view('user.login.berhasil');
+});
 
 Route::get('bantuan', function () {
     return view('user.akun.bantuan');
