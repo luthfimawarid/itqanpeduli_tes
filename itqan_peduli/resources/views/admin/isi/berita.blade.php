@@ -3,7 +3,7 @@
     <div class="p-4 sm:ml-80">
         <div class="header flex justify-between mt-3">
             <div class="kiri">
-                <p class="text-2xl font-semibold">Dana Terkumpul</p>
+                <p class="text-2xl font-semibold">Update Laporan</p>
             </div>
             <div class="kanan">
                 <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="flex text-white font-normal rounded-lg text-sm px-5 py-2.5 text-center items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
@@ -55,13 +55,13 @@
                                 #
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Nominal
+                                Nama Projek
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Rencana Penggunaan
+                                Tipe
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Tanggal
+                                Dibuat Pada
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Action

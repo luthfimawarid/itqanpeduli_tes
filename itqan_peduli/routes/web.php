@@ -135,11 +135,15 @@ Route::get('/googleAnalytics', function() {
 Route::get('/facebookPixel', function() {
     return view('admin.isi.analytics.facebookPixel');
 });
-Route::get('/paymentGateaway', function() {
+Route::get('/payment', function() {
     return view('admin.isi.paymentGateaway');
 });
 Route::get('/pengaturanemas', function() {
     return view('admin.isi.pengaturan');
+});
+
+Route::get('/pembayaran', function() {
+    return view('admin.isi.pembayaran');
 });
 
 
